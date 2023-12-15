@@ -15,7 +15,7 @@ import javax.naming.AuthenticationException;
 @Service
 public class AuthCompanyUseCase {
 
-    @Value("${securit.token.secret}")
+    @Value("${security.token.secret}")
     private String secretKey;
     @Autowired
     private CompanyRepository companyRepository;
